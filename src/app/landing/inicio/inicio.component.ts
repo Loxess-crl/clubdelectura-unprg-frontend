@@ -2,9 +2,9 @@ import { Component, inject, OnInit } from '@angular/core';
 import { Book } from '../../core/interfaces/book.interface';
 import { BookService } from '../../core/services/book.service';
 import { links } from '../../../config/config';
-import { LandingHeroComponent } from '../../shared/components/landing-hero/landing-hero.component';
-import { LandingInfoComponent } from '../../shared/components/landing-info/landing-info.component';
-import { LandingCarouselBooksComponent } from '../../shared/components/landing-carousel-books/landing-carousel-books.component';
+import { LandingInfoComponent } from '../../shared/components/landing/landing-info/landing-info.component';
+import { LandingCarouselBooksComponent } from '../../shared/components/landing/landing-carousel-books/landing-carousel-books.component';
+import { LandingHeroComponent } from '../../shared/components/landing/landing-hero/landing-hero.component';
 
 @Component({
   selector: 'app-inicio',

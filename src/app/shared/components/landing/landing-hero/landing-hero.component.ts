@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
-import { HlmIconComponent } from '../../spartan/ui-icon-helm/src/lib/hlm-icon.component';
 import { provideIcons } from '@ng-icons/core';
 import { lucideArrowRight } from '@ng-icons/lucide';
+import { HlmIconComponent } from '@spartan-ng/ui-icon-helm';
 
 @Component({
   selector: 'app-landing-hero',

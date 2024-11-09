@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
-import { Book } from '../../../core/interfaces/book.interface';
-import { SlugifyPipe } from '../../pipes/slugify.pipe';
+import { Book } from '../../../../core/interfaces/book.interface';
+import { SlugifyPipe } from '../../../pipes/slugify.pipe';
 
 @Component({
   selector: 'app-landing-info',
